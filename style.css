@@ -1,0 +1,48 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	overflow: hidden;
+	flex-direction: column;
+	margin: 1rem;
+	background: #ddd;
+}
+.copyBtn {
+	margin: 1ch;
+	color: #40ad;
+	background-color: #e77;
+	border: none;
+	border-radius: 5em;
+	padding: 2rem;
+
+}
+.moveBtn {
+	margin: 1ch;
+	color: #000;
+	background-color: #ee5;
+	border: none;
+	border-radius: 5em;
+	padding: 2rem;
+
+}
+
+textarea {
+	border-radius: .3em;
+	color: #000;
+	font-size: 30px;
+	box-shadow: 5px 5px rgba(0, 0, 0, .8);
+
+}
+.display {
+	font-size: 30px;
+	color: #e44;
+}
+
+textarea:focus:hover {
+	outline: 0;
+	border: none;
+}
